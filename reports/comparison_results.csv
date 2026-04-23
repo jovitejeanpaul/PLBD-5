@@ -1,0 +1,3 @@
+Modèle,Accuracy,Rappel (Sécurité),Précision,F1-Score
+XGBoost,0.79,0.53,0.84,0.65
+SVM,0.54,0.53,0.41,0.46
