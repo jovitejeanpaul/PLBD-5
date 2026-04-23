@@ -631,9 +631,8 @@ def run_pipeline(
 # ===========================================================================
 
 if __name__ == "__main__":
-    import sys
 
-    path = sys.argv[1] if len(sys.argv) > 1 else "water_potability.csv"
+    path ="data/water_potability.csv"
 
     X, y = run_pipeline(path, return_X_y=True)
 
